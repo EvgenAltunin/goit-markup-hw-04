@@ -249,6 +249,11 @@ button {
     color: var(--site-accent-color);
 }
 
+.nav-link:hover,
+.nav-link:focus {
+    color: var(--site-accent-color);
+}
+
 /* Site contacts */
 
 .contacts-list {
@@ -490,7 +495,7 @@ button.hero:hover, button.hero:focus {
     justify-content: center;
     align-items: center;
 
-    border: 2px solid var(--main-icon-color);
+    border: 1px solid var(--main-icon-color);
     border-radius: 4px;
 }
 
